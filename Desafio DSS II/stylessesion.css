@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #df6060;
+    background-image: url('pizzahut.jpeg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #ca3c3c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(235, 235, 235, 0.842);
+    padding: 20px;
+    width: 300px;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.card form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #df5454;
+    border-radius: 5px;
+}
+
+.card form button {
+    padding: 10px;
+    background-color: #bb2702;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card form button:hover {
+    background-color: #b31b00;
+}
+
+.card p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card p a {
+    color: #771e07;
+    text-decoration: none;
+}
+
+.card p a:hover {
+    text-decoration: underline;
+}
